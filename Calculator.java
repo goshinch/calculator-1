@@ -28,6 +28,8 @@ class Calculate {
 
     static int pow(int n1, int n2) {
         // 거듭제곱
+        double result =Math.pow((double)n1, (dobule)n2);
+        return (int)result;
     }
 
 }
